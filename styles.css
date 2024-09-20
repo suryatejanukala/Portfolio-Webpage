@@ -1,0 +1,112 @@
+*{
+    padding:0PX;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.mainDivContainer{
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    height: 100vh;
+}
+
+.headerGriditem{
+    background-color: black;
+    color:aqua;
+    padding:32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainGriditem{
+    background-image: url("Image20240119181538.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.bottomGriditem{
+    background-color: orange;
+    padding:10px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: aqua;
+    font-size:x-large;
+    border-left: 1px solid aqua;
+    border-right: 1px solid aqua;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.mainleftitem{
+    background-color: blanchedalmond;
+    margin:3rem;
+    border-radius: 5px;
+    box-shadow:10px 10px 10px aqua;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.maingridhead h1{
+    /* background-color:white; */
+    color:violet;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.maingridmiddle{
+    background-color: white;
+    color:violet;
+    margin: auto;
+    padding: 2em;
+}
+
+.maingridmiddle h2{
+    line-height: 1.5em;
+}
+
+.maingridmiddle h1{
+    line-height: 1.5em;
+}
+
+.maingridmiddle h3{
+    line-height: 1.5em;
+}
+
+.maingridmiddle p{
+    line-height: 1.5em;
+}
+
+.maingridbottom{
+    /* background-color: white; */
+    margin: auto;
+    cursor: pointer;
+}
+
+.mainrightitem{
+   /* background-color: antiquewhite; */ 
+}
+
+.bottomGriditem pre{
+    text-align: center;
+}
+
+.mainbottombutton{
+    padding: 10px;
+    cursor:pointer;
+    width:100px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.mainbottombutton:hover{
+    transform:scale(1.3);
+    transition: all 0.5s linear 0s;;
+    box-shadow:1px 1px 1px red;
+}
+
